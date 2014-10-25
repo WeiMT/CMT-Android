@@ -12,6 +12,7 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		btnLogin = (Button)findViewById(R.id.btnLogin);
+		// 123
 		
 	}
 
