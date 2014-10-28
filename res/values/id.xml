@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <item name="btnLogin" type="id"/>
+    <!-- Button -->
+    <item type="id" name="btnLogin"/>
+    <item type="id" name="btnNext"/>
+    
+    <!-- EditText -->
+    <item type="id" name="etMobile"/>
 </resources>
