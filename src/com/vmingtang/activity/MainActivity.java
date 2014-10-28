@@ -26,7 +26,7 @@ public class MainActivity extends BaseActivity {
 		public void onClick(View v) {
 			switch (v.getId()) {
 			case R.id.btnLogin:
-				startActivity(new Intent(context, LoginActivity.class));
+				startActivity(new Intent(context, LoginActivity_.class));
 				break;
 			}
 

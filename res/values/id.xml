@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <!-- Button -->
-    <item type="id" name="btnLogin"/>
-    <item type="id" name="btnNext"/>
-    
+    <item name="btnLogin" type="id"/>
+    <item name="btnNext" type="id"/>
+    <item name="btnCode" type="id"/>
+
     <!-- EditText -->
-    <item type="id" name="etMobile"/>
+    <item name="etMobile" type="id"/>
+    <item name="etCode" type="id"/>
+
+    <!-- TextView -->
+    <item name="tvMobile" type="id"/>
+
 </resources>
