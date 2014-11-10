@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="title_bg">#5aaeda</color> <!-- 标题背景色 -->
+    <color name="tab_bg">#dfdede</color> <!-- tab背景色 -->
+    <color name="tab_txt">#999999</color>
+    <color name="tab_txt_selector">#78993b</color>
+    
+    
     <color name="white">#FFFFFF</color> <!-- 白色 -->
 </resources>

@@ -1,36 +1,43 @@
 package com.vmingtang.activity;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.EActivity;
 import org.androidannotations.annotations.ViewById;
 
-import com.vmingtang.activity.R;
+import com.vmingtang.adapter.FragmentTabAdapter;
+import com.vmingtang.fragment.CarFragment_;
+import com.vmingtang.fragment.InformationFragment_;
+import com.vmingtang.fragment.MineFragment_;
+import com.vmingtang.fragment.ShopFragment_;
 
-import android.content.Intent;
-import android.view.View;
-import android.view.View.OnClickListener;
-import android.widget.Button;
+import android.support.v4.app.Fragment;
+import android.widget.RadioButton;
 
 @EActivity(R.layout.activity_main)
-public class MainActivity extends BaseActivity {
+public class MainActivity extends BaseFragmentActivity {
 	@ViewById
-	Button btnLogin;
+	RadioButton rbMain00,rbMain01,rbMain02,rbMain03;
+	
+	List<Fragment> fragments;
+	List<RadioButton> rbList;
 
 	@AfterViews
 	void initView() {
-		btnLogin.setOnClickListener(clickListener);
+		rbList = new ArrayList<RadioButton>();
+        rbList.add(rbMain00);
+        rbList.add(rbMain01);
+        rbList.add(rbMain02);
+        rbList.add(rbMain03);
+        
+        fragments = new ArrayList<Fragment>();
+        fragments.add(new ShopFragment_());
+        fragments.add(new CarFragment_());
+        fragments.add(new InformationFragment_());
+        fragments.add(new MineFragment_());
+        new FragmentTabAdapter(this, fragments, rbList, R.id.flMain);
 	}
-
-	OnClickListener clickListener = new OnClickListener() {
-
-		public void onClick(View v) {
-			switch (v.getId()) {
-			case R.id.btnLogin:
-				startActivity(new Intent(context, LoginActivity_.class));
-				break;
-			}
-
-		}
-	};
 
 }

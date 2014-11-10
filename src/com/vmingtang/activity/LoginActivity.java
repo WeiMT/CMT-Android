@@ -7,6 +7,7 @@ import org.androidannotations.annotations.ViewById;
 
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 
 @EActivity(R.layout.activity_login)
 public class LoginActivity extends BaseActivity {
@@ -14,10 +15,12 @@ public class LoginActivity extends BaseActivity {
 	EditText etMobile;
 	@ViewById
 	Button btnNext;
+	@ViewById
+	TextView tvTitle;
 
 	@AfterViews
 	void initView() {
-
+		tvTitle.setText("登录|注册");
 	}
 	@Click
 	void btnNext(){

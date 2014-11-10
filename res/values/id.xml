@@ -11,6 +11,16 @@
     <item name="etCode" type="id"/>
 
     <!-- TextView -->
+    <item name="tvTitle" type="id"/>
     <item name="tvMobile" type="id"/>
+    
+    <!-- FrameLayout -->
+    <item type="id" name="flMain"/>
+    
+    <!-- RadioButton -->
+    <item type="id" name="rbMain00"/>
+    <item type="id" name="rbMain01"/>
+    <item type="id" name="rbMain02"/>
+    <item type="id" name="rbMain03"/>
 
 </resources>
