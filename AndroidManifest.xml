@@ -7,6 +7,13 @@
         android:minSdkVersion="10"
         android:targetSdkVersion="10" />
 
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
     <application
         android:name=".ActivityApp_"
         android:allowBackup="true"
@@ -14,7 +21,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppBaseTheme" >
         <activity
-            android:name=".LoginActivity_"
+            android:name=".MainActivity_"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait" >
             <intent-filter>
@@ -24,9 +31,15 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".LoginActivity_"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" />
+        <!--
+             <activity
             android:name=".MainActivity_"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait" />
+        -->
         <activity
             android:name=".IdentifyingCodeActivity_"
             android:configChanges="keyboardHidden|orientation"

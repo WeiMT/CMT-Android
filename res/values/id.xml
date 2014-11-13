@@ -17,10 +17,16 @@
     <!-- FrameLayout -->
     <item type="id" name="flMain"/>
     
+    <!-- LinearLayout -->
+    <item type="id" name="llPoint"/>
+    
     <!-- RadioButton -->
     <item type="id" name="rbMain00"/>
     <item type="id" name="rbMain01"/>
     <item type="id" name="rbMain02"/>
     <item type="id" name="rbMain03"/>
+    
+    <!-- ViewPager -->
+    <item type="id" name="vpService"/>
 
 </resources>

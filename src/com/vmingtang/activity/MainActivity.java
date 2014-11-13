@@ -7,14 +7,14 @@ import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.EActivity;
 import org.androidannotations.annotations.ViewById;
 
+import android.support.v4.app.Fragment;
+import android.widget.RadioButton;
+
 import com.vmingtang.adapter.FragmentTabAdapter;
 import com.vmingtang.fragment.CarFragment_;
 import com.vmingtang.fragment.InformationFragment_;
 import com.vmingtang.fragment.MineFragment_;
-import com.vmingtang.fragment.ShopFragment_;
-
-import android.support.v4.app.Fragment;
-import android.widget.RadioButton;
+import com.vmingtang.fragment.ServiceFragment_;
 
 @EActivity(R.layout.activity_main)
 public class MainActivity extends BaseFragmentActivity {
@@ -33,7 +33,7 @@ public class MainActivity extends BaseFragmentActivity {
         rbList.add(rbMain03);
         
         fragments = new ArrayList<Fragment>();
-        fragments.add(new ShopFragment_());
+        fragments.add(new ServiceFragment_());
         fragments.add(new CarFragment_());
         fragments.add(new InformationFragment_());
         fragments.add(new MineFragment_());

@@ -34,7 +34,7 @@
             android:drawableTop="@drawable/selector_my"
             android:gravity="center"
             android:padding="6dip"
-            android:text="服务商"
+            android:text="首页"
             android:textColor="@color/select_txt_tab"
             android:textSize="10sp" />
          <RadioButton
