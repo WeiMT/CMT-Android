@@ -49,8 +49,7 @@
                     android:background="@color/white"
                     android:gravity="center"
                     android:text="洗车"
-                    android:textColor="@color/tab_txt"
-                    android:width="0dip" />
+                    android:textColor="@color/tab_txt" />
 
                 <TextView
                     android:id="@+id/tv01"
@@ -61,8 +60,7 @@
                     android:background="@color/white"
                     android:gravity="center"
                     android:text="美容"
-                    android:textColor="@color/tab_txt"
-                    android:width="0dip" />
+                    android:textColor="@color/tab_txt" />
 
                 <TextView
                     android:id="@+id/tv02"
@@ -73,8 +71,7 @@
                     android:background="@color/white"
                     android:gravity="center"
                     android:text="保养"
-                    android:textColor="@color/tab_txt"
-                    android:width="0dip" />
+                    android:textColor="@color/tab_txt" />
             </LinearLayout>
 
             <LinearLayout
@@ -91,8 +88,7 @@
                     android:background="@color/white"
                     android:gravity="center"
                     android:text="改装"
-                    android:textColor="@color/tab_txt"
-                    android:width="0dip" />
+                    android:textColor="@color/tab_txt" />
 
                 <TextView
                     android:id="@+id/tv04"
@@ -103,8 +99,7 @@
                     android:background="@color/white"
                     android:gravity="center"
                     android:text="修理"
-                    android:textColor="@color/tab_txt"
-                    android:width="0dip" />
+                    android:textColor="@color/tab_txt" />
 
                 <TextView
                     android:id="@+id/tv05"
@@ -115,8 +110,7 @@
                     android:background="@color/white"
                     android:gravity="center"
                     android:text="轮胎"
-                    android:textColor="@color/tab_txt"
-                    android:width="0dip" />
+                    android:textColor="@color/tab_txt" />
             </LinearLayout>
 
             <LinearLayout
@@ -133,8 +127,7 @@
                     android:background="@color/white"
                     android:gravity="center"
                     android:text="电瓶"
-                    android:textColor="@color/tab_txt"
-                    android:width="0dip" />
+                    android:textColor="@color/tab_txt" />
 
                 <TextView
                     android:id="@+id/tv07"
@@ -145,8 +138,7 @@
                     android:background="@color/white"
                     android:gravity="center"
                     android:text="加油"
-                    android:textColor="@color/tab_txt"
-                    android:width="0dip" />
+                    android:textColor="@color/tab_txt" />
 
                 <TextView
                     android:id="@+id/tv08"
@@ -157,8 +149,7 @@
                     android:background="@color/white"
                     android:gravity="center"
                     android:text="4S"
-                    android:textColor="@color/tab_txt"
-                    android:width="0dip" />
+                    android:textColor="@color/tab_txt" />
             </LinearLayout>
 
             <LinearLayout
@@ -175,8 +166,7 @@
                     android:background="@color/white"
                     android:gravity="center"
                     android:text="二手车"
-                    android:textColor="@color/tab_txt"
-                    android:width="0dip" />
+                    android:textColor="@color/tab_txt" />
 
                 <TextView
                     android:id="@+id/tv10"
@@ -187,8 +177,7 @@
                     android:background="@color/white"
                     android:gravity="center"
                     android:text="代理代办"
-                    android:textColor="@color/tab_txt"
-                    android:width="0dip" />
+                    android:textColor="@color/tab_txt" />
 
                 <TextView
                     android:id="@+id/tv11"
@@ -199,8 +188,7 @@
                     android:background="@color/white"
                     android:gravity="center"
                     android:text="汽车用品"
-                    android:textColor="@color/tab_txt"
-                    android:width="0dip" />
+                    android:textColor="@color/tab_txt"/>
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

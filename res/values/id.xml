@@ -9,6 +9,9 @@
     <!-- EditText -->
     <item name="etMobile" type="id"/>
     <item name="etCode" type="id"/>
+    
+    <!-- ImageView -->
+    <item name="ivUserPhoto" type="id"/>
 
     <!-- TextView -->
     <item name="tvTitle" type="id"/>

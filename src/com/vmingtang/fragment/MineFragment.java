@@ -14,7 +14,7 @@ public class MineFragment  extends BaseFragment {
 
 	@AfterViews
 	void initView() {
-		tvTitle.setText("我");
+		tvTitle.setText("个人中心");
 	}
 }
 
