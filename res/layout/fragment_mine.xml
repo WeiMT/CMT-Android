@@ -9,8 +9,8 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="10dip"
-        android:background="@color/white" >
+        android:background="@color/white"
+        android:padding="10dip" >
 
         <ImageView
             android:id="@id/ivUserPhoto"
@@ -22,69 +22,76 @@
             android:id="@id/tvMobile"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_toRightOf="@id/ivUserPhoto"
             android:layout_marginLeft="20dip"
-            android:textSize="18sp"
-            android:text="13807001234" />
+            android:layout_toRightOf="@id/ivUserPhoto"
+            android:text="13807001234"
+            android:textSize="18sp" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_toRightOf="@id/ivUserPhoto"
             android:layout_below="@id/tvMobile"
             android:layout_marginLeft="20dip"
             android:layout_marginTop="10dip"
-            android:textSize="18sp"
-            android:text="积分:500" />
+            android:layout_toRightOf="@id/ivUserPhoto"
+            android:text="积分:500"
+            android:textSize="18sp" />
     </RelativeLayout>
-    <Button 
-         android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="10dip"
-            android:drawableLeft="@drawable/tab_my_select"
-            android:background="@color/white"
-            android:textColor="@color/black"
-            android:text="我的关注"
-            android:gravity="left|center_vertical"
-            android:drawablePadding="10dip"/>
-     <Button 
-         android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="10dip"
-            android:drawableLeft="@drawable/tab_my_select"
-            android:background="@color/white"
-            android:textColor="@color/black"
-            android:text="我的卡包"
-            android:gravity="left|center_vertical"
-            android:drawablePadding="10dip"/>
-      <Button 
-         android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="10dip"
-            android:drawableLeft="@drawable/tab_my_select"
-            android:background="@color/white"
-            android:textColor="@color/black"
-            android:text="我的车友会"
-            android:gravity="left|center_vertical"
-            android:drawablePadding="10dip"/>
-       <Button 
-         android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="10dip"
-            android:drawableLeft="@drawable/tab_my_select"
-            android:background="@color/white"
-            android:textColor="@color/black"
-            android:text="我的工具箱"
-            android:gravity="left|center_vertical"
-            android:drawablePadding="10dip"/>
-        <Button 
-         android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="10dip"
-            android:drawableLeft="@drawable/tab_my_select"
-            android:background="@color/white"
-            android:textColor="@color/black"
-            android:text="设置"
-            android:gravity="left|center_vertical"
-            android:drawablePadding="10dip"/>
+
+    <Button
+        android:id="@id/btnMyFavorites"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/tab_my_select"
+        android:drawablePadding="10dip"
+        android:gravity="left|center_vertical"
+        android:padding="10dip"
+        android:text="我的收藏"
+        android:textColor="@color/black" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/tab_my_select"
+        android:drawablePadding="10dip"
+        android:gravity="left|center_vertical"
+        android:padding="10dip"
+        android:text="我的卡包"
+        android:textColor="@color/black" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/tab_my_select"
+        android:drawablePadding="10dip"
+        android:gravity="left|center_vertical"
+        android:padding="10dip"
+        android:text="我的车友会"
+        android:textColor="@color/black" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/tab_my_select"
+        android:drawablePadding="10dip"
+        android:gravity="left|center_vertical"
+        android:padding="10dip"
+        android:text="我的工具箱"
+        android:textColor="@color/black" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/tab_my_select"
+        android:drawablePadding="10dip"
+        android:gravity="left|center_vertical"
+        android:padding="10dip"
+        android:text="设置"
+        android:textColor="@color/black" />
 
 </LinearLayout>

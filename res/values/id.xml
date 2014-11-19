@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
 
     <!-- Button -->
     <item name="btnLogin" type="id"/>
     <item name="btnNext" type="id"/>
     <item name="btnCode" type="id"/>
+    <item name="btnMyFavorites" type="id"/>
 
     <!-- EditText -->
     <item name="etMobile" type="id"/>
@@ -12,10 +13,16 @@
     
     <!-- ImageView -->
     <item name="ivUserPhoto" type="id"/>
+    <item name="ivInformation" type="id"/>
 
     <!-- TextView -->
     <item name="tvTitle" type="id"/>
     <item name="tvMobile" type="id"/>
+    <item name="tvInformationTitle" type="id"/>
+    <item name="tvInformationDate" type="id"/>
+    
+    <!-- ListView -->
+    <item name="lvInformation" type="id"/>
     
     <!-- FrameLayout -->
     <item type="id" name="flMain"/>
