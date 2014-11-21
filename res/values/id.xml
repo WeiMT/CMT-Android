@@ -6,37 +6,43 @@
     <item name="btnNext" type="id"/>
     <item name="btnCode" type="id"/>
     <item name="btnMyFavorites" type="id"/>
+    <item name="btnMyCards" type="id"/>
 
     <!-- EditText -->
     <item name="etMobile" type="id"/>
     <item name="etCode" type="id"/>
-    
+
     <!-- ImageView -->
     <item name="ivUserPhoto" type="id"/>
     <item name="ivInformation" type="id"/>
+    <item name="ivCard" type="id"/>
 
     <!-- TextView -->
     <item name="tvTitle" type="id"/>
     <item name="tvMobile" type="id"/>
     <item name="tvInformationTitle" type="id"/>
     <item name="tvInformationDate" type="id"/>
-    
+    <item name="tvShopName" type="id"/>
+    <item name="tvCardType" type="id"/>
+    <item name="tvCardDescription" type="id"/>
+
     <!-- ListView -->
     <item name="lvInformation" type="id"/>
-    
+    <item name="lvCard" type="id"/>
+
     <!-- FrameLayout -->
-    <item type="id" name="flMain"/>
-    
+    <item name="flMain" type="id"/>
+
     <!-- LinearLayout -->
-    <item type="id" name="llPoint"/>
-    
+    <item name="llPoint" type="id"/>
+
     <!-- RadioButton -->
-    <item type="id" name="rbMain00"/>
-    <item type="id" name="rbMain01"/>
-    <item type="id" name="rbMain02"/>
-    <item type="id" name="rbMain03"/>
-    
+    <item name="rbMain00" type="id"/>
+    <item name="rbMain01" type="id"/>
+    <item name="rbMain02" type="id"/>
+    <item name="rbMain03" type="id"/>
+
     <!-- ViewPager -->
-    <item type="id" name="vpService"/>
+    <item name="vpService" type="id"/>
 
 </resources>

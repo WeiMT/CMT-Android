@@ -5,6 +5,7 @@ import org.androidannotations.annotations.Click;
 import org.androidannotations.annotations.EFragment;
 import org.androidannotations.annotations.ViewById;
 
+import com.vmingtang.activity.MyCardsActivity_;
 import com.vmingtang.activity.MyFavoritesActivity_;
 import com.vmingtang.activity.R;
 
@@ -21,6 +22,10 @@ public class MineFragment  extends BaseFragment {
 	@Click
 	void btnMyFavorites(){
 		MyFavoritesActivity_.intent(context).start();
+	}
+	@Click
+	void btnMyCards(){
+		MyCardsActivity_.intent(context).start();
 	}
 }
 
