@@ -6,9 +6,32 @@
 
     <include layout="@layout/view_title" />
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="车" />
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="80dip"
+            android:layout_height="80dip"
+            android:background="@drawable/car" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="赣A A5123" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="昵称：小乖乖    积分：2000" />
+        </LinearLayout>
+    </LinearLayout>
 
 </LinearLayout>
